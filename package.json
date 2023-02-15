@@ -8,6 +8,9 @@
     "js": "node ./dist/index.js",
     "release": "npm version patch && npm publish"
   },
+  "bin": {
+    "sundy-test": "./dist/index.js"
+  },
   "author": "sundy",
   "license": "ISC",
   "devDependencies": {
