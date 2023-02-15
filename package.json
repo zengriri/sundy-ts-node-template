@@ -1,0 +1,12 @@
+{
+  "name": "sund-template",
+  "version": "1.0.0",
+  "description": "ts 写node的一个模板",
+  "main": "./lib/indes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "js": "node ./lib/index.js"
+  },
+  "author": "sundy",
+  "license": "ISC"
+}
