@@ -8,5 +8,8 @@
     "js": "node ./lib/index.js"
   },
   "author": "sundy",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.13.0"
+  }
 }
