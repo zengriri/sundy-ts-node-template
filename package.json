@@ -1,5 +1,5 @@
 {
-  "name": "sund-template",
+  "name": "sundy-template",
   "version": "1.0.0",
   "description": "ts 写node的一个模板",
   "main": "./dist/index.js",
@@ -8,6 +8,10 @@
     "js": "node ./dist/index.js",
     "release": "npm version patch && npm publish"
   },
+  "files": [
+    "dist",
+    "tsconfig.json"
+  ],
   "bin": {
     "sundy-test": "./dist/index.js"
   },
